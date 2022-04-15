@@ -10,5 +10,9 @@
     <bean id="myPet"
           class="ru.clevertec.introduction.Dog">
     </bean>
+    <bean id="myPerson"
+          class="ru.clevertec.introduction.Person">
+        <constructor-arg ref="myPet"/>
+    </bean>
 
 </beans>
