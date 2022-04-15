@@ -13,6 +13,8 @@
     <bean id="myPerson"
           class="ru.clevertec.introduction.Person">
         <property name="pet" ref="myPet"/>
+        <property name="surname" value="Tregulov"/>
+        <property name="age" value="33"/>
     </bean>
 
 </beans>
