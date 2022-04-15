@@ -12,7 +12,7 @@
     </bean>
     <bean id="myPerson"
           class="ru.clevertec.introduction.Person">
-        <constructor-arg ref="myPet"/>
+        <property name="pet" ref="myPet"/>
     </bean>
 
 </beans>
