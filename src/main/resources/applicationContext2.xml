@@ -9,6 +9,8 @@
 
     <bean id="myPet"
           class="ru.clevertec.introduction.Dog"
+          init-method="init"
+          destroy-method="destroy"
           scope="prototype">
     </bean>
 
