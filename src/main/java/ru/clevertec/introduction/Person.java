@@ -1,11 +1,11 @@
 package ru.clevertec.introduction;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("personBean")
 public class Person {
-    @Autowired
     private Pet pet;
     private String surname;
     private int age;
@@ -20,7 +20,8 @@ public class Person {
         System.out.println("Person bean is created");
     }
 
-    //    @Autowired
+    @Autowired
+    @Qualifier("catBean")
     public void setPet(Pet pet) {
         System.out.println("Class Person: set pet");
         this.pet = pet;
