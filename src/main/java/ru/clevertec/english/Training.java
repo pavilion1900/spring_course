@@ -15,8 +15,8 @@ public class Training {
     }
 
     public void run() {
-        List<String> textRus = getText("src/main/resources/text6Rus.txt");
-        List<String> textEng = getText("src/main/resources/text6Eng.txt");
+        List<String> textRus = getText("src/main/resources/english/text5Rus.txt");
+        List<String> textEng = getText("src/main/resources/english/text5Eng.txt");
         List<Integer> randomIndex = new ArrayList<>();
         for (int i = 0; i < textRus.size(); i++) {
             randomIndex.add(i);
