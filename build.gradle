@@ -23,6 +23,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'ru.clevertec.App'
+        attributes 'Main-Class': 'ru.clevertec.english.Training'
     }
 }
