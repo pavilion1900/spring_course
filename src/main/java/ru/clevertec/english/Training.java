@@ -4,6 +4,12 @@ import java.io.*;
 import java.util.*;
 
 public class Training {
+    private Properties properties;
+
+    public Training(Properties properties) {
+        this.properties = properties;
+    }
+
     public List<String> getText(String path) {
         List<String> list = new ArrayList<>();
         try (BufferedReader in = new BufferedReader(new FileReader(path))) {
@@ -15,14 +21,8 @@ public class Training {
     }
 
     public void run() {
-//        List<String> textRus = getText("src/main/resources/english/tochka/text1Rus.txt");
-//        List<String> textEng = getText("src/main/resources/english/tochka/text1Eng.txt");
-//        List<String> textRus = getText("src/main/resources/english/serov/text5Rus.txt");
-//        List<String> textEng = getText("src/main/resources/english/serov/text5Eng.txt");
-//        List<String> textRus = getText("src/main/resources/english/serov/text6Rus.txt");
-//        List<String> textEng = getText("src/main/resources/english/serov/text6Eng.txt");
-        List<String> textRus = getText("src/main/resources/english/serov/text7Rus.txt");
-        List<String> textEng = getText("src/main/resources/english/serov/text7Eng.txt");
+        List<String> textRus = getText(properties.getProperty("textRus"));
+        List<String> textEng = getText(properties.getProperty("textEng"));
         List<Integer> randomIndex = new ArrayList<>();
         for (int i = 0; i < textRus.size(); i++) {
             randomIndex.add(i);
@@ -43,6 +43,14 @@ public class Training {
     }
 
     public static void main(String[] args) {
-        new Training().run();
+        Properties properties = new Properties();
+        try (FileInputStream in =
+                     new FileInputStream("src/main/resources/english/app.properties")) {
+            properties.load(in);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        Training training = new Training(properties);
+        training.run();
     }
 }
