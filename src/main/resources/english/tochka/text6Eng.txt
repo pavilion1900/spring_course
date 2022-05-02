@@ -1,0 +1,100 @@
+Do you prefer coffee or tea?
+Do you prefer ice-cream or cheesecake?
+Do you prefer cycling or jogging?
+Do you prefer watching comedies or science fiction?
+Do you prefer travelling or staying at home?
+Do you prefer taking photos or drawing?
+Do you prefer dancing or singing?
+Do you prefer doing homework or doing yoga?
+Do you prefer waking up early or late?
+Do you prefer reading the news or watching it?
+Do you prefer movies about love or about adventures?
+Do you prefer history books or fiction?
+Do you prefer green tea or black tea?
+Do you prefer going shopping or staying at home?
+Do you prefer playing tennis or watching it?
+Do you prefer visiting friends or parents?
+Do you prefer telling stories or listening to them?
+Do you prefer eating out or eating at home?
+Do you prefer skiing or skating?
+Do you prefer reading books or surfing the net?
+Do you prefer visiting friends or parents?
+Do you prefer movies about love or about adventures?
+Do you prefer going shopping or staying at home?
+Do you prefer dancing or singing?
+Do you prefer waking up early or late?
+We prefer Paris (to Voronezh)
+We prefer vegetables (to fast food)
+We prefer movies (to TV series)
+We prefer playing (to working)
+We prefer fast food (to healthy food)
+We prefer cheese (to ham)
+We prefer candies (to porridge)
+We prefer cycling (to walking)
+We prefer these movies (to those)
+We prefer reading about adventures (to politics)
+We prefer wine (to vodka)
+We prefer chicken (to fish)
+We prefer joking (to crying)
+We prefer cats (to dogs)
+We prefer doing sports (to doing yoga)
+We prefer thrillers (to dramas)
+We prefer jogging (to working out)
+We prefer riding a horse (to riding a motorbike)
+We prefer surfing the internet (to sleeping)
+We prefer cheeseburgers (to soup)
+We prefer thrillers (to dramas)
+We prefer joking (to crying)
+We prefer cats (to dogs)
+We prefer cycling (to walking)
+We prefer reading about adventures (to politics)
+There is coffee in the photo
+There is a girl in the photo
+There is a park in the photo
+There is a flower in the photo
+There is water in the photo
+There is a boy in the photo
+There is a family in the photo
+There is a lamp in the picture
+There is a wall in the picture
+There is a car in the photo
+There is friendship in the photo
+There is a house in the photo
+There is tea in the photo
+There is paper in the picture
+There is a kitten in the photo
+There is a city in the photo
+There is a girl in the picture
+There is bread in the photo
+There is understanding in the picture
+There is cheese in the photo
+There is a city in the photo
+There is a puppy in the photo
+There is a house in the picture
+There is a boy in the photo
+There is a family in the photo
+There are only girls in the park
+There are many families in the park
+There are a lot of people in the park
+There are memorials in the park
+There are flowers in the park
+There are ponds in the park
+There are fountains in the park
+There are birds in the park
+There are trees in the park
+There are benches in the park
+There are clubs in the city
+There are libraries in the city
+There are theatres in the city
+There are universities in the city
+There are parks in the city
+There are shopping-malls in the city
+There are hospitals in the city
+There are kindergartens in the city
+There are a lot of people in the city
+There are many cars in the city
+There are universities in the city
+There are theatres in the city
+There are kindergartens in the city
+There are fountains in the park
+There are memorials in the park
