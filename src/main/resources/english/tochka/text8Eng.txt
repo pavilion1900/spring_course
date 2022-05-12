@@ -46,7 +46,7 @@ I slept yesterday, I didn’t read it
 I took a pill yesterday, I didn’t forget about it
 I brought it yesterday, I didn’t forget about it
 I caught a fish yesterday, I didn’t buy it
-I had time yesterday, I didn’t work
+I had free time yesterday, I didn’t work
 I tried salad yesterday, I didn’t try fish
 I did homework yesterday, I didn’t do sports
 I wrote a letter yesterday, I didn’t write a post
@@ -56,7 +56,7 @@ I was sick yesterday, I didn’t work
 I did homework yesterday, I didn’t do sports
 I was sick yesterday, I didn’t work
 I drove yesterday, I didn’t walk
-I had time yesterday, I didn’t work
+I had free time yesterday, I didn’t work
 I called yesterday, I didn’t forget about it
 What about you?
 What about them?
@@ -144,3 +144,27 @@ I would like coffee
 I would like this and this
 I would like to sleep
 I would like to have breakfast
+I was at work last Tuesday.
+He was sad.
+She wasn’t at home yesterday.
+It wasn’t interesting.
+Was Jack with you?
+Was it interesting?
+We were together last week.
+They were happy at school.
+You weren’t angry with her.
+My friends weren’t serious then.
+Were you busy 2 days ago?
+Were they kind in their childhood?
+I listened to music yesterday.
+She looked at me.
+They bought a car last year.
+We told him this story.
+I didn’t listen to music on Thursday.
+She didn’t look at me.
+They didn’t buy a car last year.
+We didn’t tell him this story.
+Did you listen to music in the morning?
+Why did she look at me then?
+When did they buy a car?
+What did we tell him?
