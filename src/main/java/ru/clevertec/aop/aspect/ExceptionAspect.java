@@ -9,8 +9,9 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Order(3)
 public class ExceptionAspect {
-    @Before("ru.clevertec.aop.aspect.MyPointcuts.allGetMethods()")
-    public void beforeGetExceptionAdvice() {
+    @Before("ru.clevertec.aop.aspect.MyPointcuts.allAddMethods()")
+    public void beforeAddExceptionAdvice() {
         System.out.println("beforeGetExceptionAdvice: catch exception");
+        System.out.println("------------------------------------");
     }
 }
