@@ -1,10 +1,7 @@
 package ru.clevertec.aop.aspect;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 import ru.clevertec.aop.Student;
 
@@ -18,7 +15,7 @@ public class UniversityLoggingAspect {
 //        System.out.println("beforeGetStudentsLoggingAdvice");
 //    }
 
-//    @AfterReturning(pointcut = "execution(* getStudents())",
+    //    @AfterReturning(pointcut = "execution(* getStudents())",
 //            returning = "students")
 //    public void afterReturningGetStudentsLoggingAdvice(List<Student> students) {
 //        Student firstStudent = students.get(0);
@@ -33,9 +30,13 @@ public class UniversityLoggingAspect {
 //
 //        System.out.println("afterReturningGetStudentsLoggingAdvice");
 //    }
-
-    @AfterThrowing(pointcut = "execution(* getStudents())", throwing = "exception")
-    public void afterThrowingGetStudentLoggingAdvice(JoinPoint joinPoint, Throwable exception) {
-        System.out.println("afterThrowingGetStudentLoggingAdvice " + exception);
+//
+//    @AfterThrowing(pointcut = "execution(* getStudents())", throwing = "exception")
+//    public void afterThrowingGetStudentsLoggingAdvice(JoinPoint joinPoint, Throwable exception) {
+//        System.out.println("afterThrowingGetStudentLoggingAdvice " + exception);
+//    }
+    @After("execution(* getStudents())")
+    public void afterGetStudentsLoggingAdvice(JoinPoint joinPoint) {
+        System.out.println("afterGetStudentsLoggingAdvice");
     }
 }
