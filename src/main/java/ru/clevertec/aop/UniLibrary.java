@@ -10,6 +10,7 @@ public class UniLibrary extends AbstractLibrary {
     }
 
     public String returnBook() {
+        int number = 10 / 0;
         System.out.println("We return a book to UniLibrary");
         return "Effective Java";
     }
