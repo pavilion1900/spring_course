@@ -12,7 +12,7 @@ public class Ex1 {
                 .addAnnotatedClass(Employee.class)
                 .buildSessionFactory();
         try {
-            Employee emp1 = new Employee("Ivan", "Ivanov", "IT", 500);
+            Employee emp1 = new Employee("Michael", "Ivanov", "IT", 750);
             Session session = factory.getCurrentSession();
             session.beginTransaction();
             session.save(emp1);
