@@ -1,4 +1,4 @@
-package ru.clevertec.hibernate2.entity;
+package ru.clevertec.hibernate1to1.entity;
 
 import javax.persistence.*;
 

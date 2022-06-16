@@ -1,10 +1,10 @@
-package ru.clevertec.hibernate2;
+package ru.clevertec.hibernate1to1;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import ru.clevertec.hibernate2.entity.Detail;
-import ru.clevertec.hibernate2.entity.Employee;
+import ru.clevertec.hibernate1to1.entity.Detail;
+import ru.clevertec.hibernate1to1.entity.Employee;
 
 public class Ex2 {
     public static void main(String[] args) {
