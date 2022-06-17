@@ -15,16 +15,16 @@ public class Ex1 {
                 .buildSessionFactory();
         Session session = null;
         try {
-//            Section section1 = new Section("football");
-//            Child child1 = new Child("Ivan", 5);
-//            Child child2 = new Child("Nick", 7);
-//            Child child3 = new Child("Oleg", 6);
+//            Section section1 = new Section("dance");
+//            Child child1 = new Child("Olga", 5);
+//            Child child2 = new Child("Pavel", 7);
+//            Child child3 = new Child("Dima", 6);
 //            section1.addChildToSection(child1);
 //            section1.addChildToSection(child2);
 //            section1.addChildToSection(child3);
 //            session = factory.getCurrentSession();
 //            session.beginTransaction();
-//            session.save(section1);
+//            session.persist(section1);
 //            session.getTransaction().commit();
 
 //            Section section1 = new Section("basketball");
@@ -46,11 +46,35 @@ public class Ex1 {
 //            section.getChildList().forEach(System.out::println);
 //            session.getTransaction().commit();
 
+//            session = factory.getCurrentSession();
+//            session.beginTransaction();
+//            Child child = session.get(Child.class, 4);
+//            System.out.println(child);
+//            child.getSections().forEach(System.out::println);
+//            session.getTransaction().commit();
+
+//            session = factory.getCurrentSession();
+//            session.beginTransaction();
+//            Section section = session.get(Section.class, 1);
+//            session.delete(section);
+//            session.getTransaction().commit();
+
+//            session = factory.getCurrentSession();
+//            session.beginTransaction();
+//            session.createQuery("delete from Child where id > 5 and id < 10")
+//                    .executeUpdate();
+//            session.getTransaction().commit();
+
+//            session = factory.getCurrentSession();
+//            session.beginTransaction();
+//            Section section = session.get(Section.class, 7);
+//            session.delete(section);
+//            session.getTransaction().commit();
+
             session = factory.getCurrentSession();
             session.beginTransaction();
             Child child = session.get(Child.class, 4);
-            System.out.println(child);
-            child.getSections().forEach(System.out::println);
+            session.delete(child);
             session.getTransaction().commit();
         } finally {
             session.close();
