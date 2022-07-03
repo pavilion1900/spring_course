@@ -2,13 +2,13 @@
 <html>
 <body>
 <h2>Dear Employee, you are welcome</h2>
-<br>
-<br>
+<br><br>
 Your name: ${employee.name}
-<br>
+<br><br>
 Your surname: ${employee.surname}
-<br>
+<br><br>
 Your salary: ${employee.salary}
-<br>
+<br><br>
+Your department: ${employee.department}
 </body>
 </html>
