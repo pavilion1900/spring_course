@@ -5,7 +5,7 @@
 <h2>Dear Employee, Please enter your details</h2>
 <br>
 <br>
-<form:form action="showDetails" modelAttribute="employee">
+<form:form action="showDetails" modelAttribute="employee" method="post">
     Name <form:input path="name"/>
     <form:errors path="name"/>
     <br><br>
